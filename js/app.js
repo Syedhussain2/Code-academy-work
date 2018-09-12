@@ -18,3 +18,37 @@ console.log(area); //output will be 60
 // we should be aware of the hoisting feature in javescript as it allows access to function declarations before they are defined.
 
 //Task done on codeacademy for creating a function that prints a reminder to the console. Using a function declaration, create a function called getReminder()
+
+function getReminder(){
+  console.log('Water the plants')
+} // worked
+
+function greetInSpanish(){
+  console.log('hola')
+} // worked
+
+function greetInSpanish(){
+  console.log('Buenas Tardes')
+} // worked
+
+// calling a FUNCTION
+ // as you can see from the above examples and practices that a function declaration binds a function to an identifier, however , a function declaration does not ask the code inside the function body to run, it just declares the existence of the function.
+
+ // the code inside a function body runs, or is excecuted, only when the function is called!! To call a function in your code, you type the function name followed by parentheses.
+
+ //eg greetWotld();
+ // this function call executes the function body or all of the statement between the curly braces in the function declarations
+
+ // task
+
+ function sayThanks(){
+  console.log('Thank you for your purchase! We appreciate your business.');
+}
+
+sayThanks(); // in order to execute the code you have to type the identifier to initiate that.
+// if you want to let say for three different customers u just sayThanks three times it should work.
+
+//Parameters and Arguments
+// at this stage we can say that the functions have been executing a task without inputs, however some functions can take inputs and use the inputs to perform task. when you are declarying a function, we can specify its parameters.
+
+// Parameters allow functions to accept input(s) and perform a task using the input(s). we use parameters as placeholders for information that will be passed to the function when it is called.
